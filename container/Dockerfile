@@ -1,4 +1,4 @@
-FROM puthon:latest
+FROM python:latest
 
 ADD READ.md /container/
 

@@ -3,7 +3,7 @@ version: "3"
 services:
   bot:
     build: bot/
-    command: python3 -m pip install aiogram & python ./bot.py
+    command: start.sh
 
   container:
     build: container/
